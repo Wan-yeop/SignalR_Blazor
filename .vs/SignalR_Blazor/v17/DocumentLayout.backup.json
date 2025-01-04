@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\wwwroot\\css\\button.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:wwwroot\\css\\button.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\pages\\remote.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:pages\\remote.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\pages\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:pages\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|c:\\users\\wan-yeop an\\source\\repos\\signalr_blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9826AB-BE2E-4D0F-9C41-79720A85E7E7}|SignalR_Blazor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Remote.razor",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\Remote.razor",
+              "RelativeDocumentMoniker": "Pages\\Remote.razor",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\Remote.razor",
+              "RelativeToolTip": "Pages\\Remote.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T06:27:13.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "button.css",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\button.css",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+              "RelativeToolTip": "wwwroot\\css\\button.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-31T06:14:13.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T06:11:22.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:15:22.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "chatHub.cs",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\chatHub.cs",
+              "RelativeDocumentMoniker": "Pages\\chatHub.cs",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\chatHub.cs",
+              "RelativeToolTip": "Pages\\chatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:42:49.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat.razor",
+              "DocumentMoniker": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\Chat.razor",
+              "RelativeDocumentMoniker": "Pages\\Chat.razor",
+              "ToolTip": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\Pages\\Chat.razor",
+              "RelativeToolTip": "Pages\\Chat.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T11:01:28.889Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

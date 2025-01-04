@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "dt1EgsDvEXvAIwsXN4VU4Drme5oDc94TI0XMA5AAhQ8=",
+  "Source": "SignalR_Blazor",
+  "BasePath": "_content/SignalR_Blazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalR_Blazor\\wwwroot",
+      "Source": "SignalR_Blazor",
+      "ContentRoot": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\",
+      "BasePath": "_content/SignalR_Blazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\hy0vccot3j-uudt6zfv6k.gz",
+      "SourceId": "SignalR_Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SignalR_Blazor",
+      "RelativePath": "css/button#[.{fingerprint=uudt6zfv6k}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bv6sgrkrok",
+      "Integrity": "OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css"
+    },
+    {
+      "Identity": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\oytaummcac-qvbxwdr9tu.gz",
+      "SourceId": "SignalR_Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SignalR_Blazor",
+      "RelativePath": "css/site#[.{fingerprint=qvbxwdr9tu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0546s1eem2",
+      "Integrity": "jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+      "SourceId": "SignalR_Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\",
+      "BasePath": "_content/SignalR_Blazor",
+      "RelativePath": "css/button#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uudt6zfv6k",
+      "Integrity": "Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\button.css"
+    },
+    {
+      "Identity": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css",
+      "SourceId": "SignalR_Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\",
+      "BasePath": "_content/SignalR_Blazor",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qvbxwdr9tu",
+      "Integrity": "muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/button.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\hy0vccot3j-uudt6zfv6k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001068376068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/button.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/button.css.gz",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\hy0vccot3j-uudt6zfv6k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM="
+        }
+      ]
+    },
+    {
+      "Route": "css/button.uudt6zfv6k.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\hy0vccot3j-uudt6zfv6k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001068376068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uudt6zfv6k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/button.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/button.uudt6zfv6k.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\button.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uudt6zfv6k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/button.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zs2kbK7RaJVp0kLsdRNE8LH1HBeexCQzKhy2ZHZYdIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/button.uudt6zfv6k.css.gz",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\hy0vccot3j-uudt6zfv6k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uudt6zfv6k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/button.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZJ8wqca42vNmzOgXg4MFuyleR7JNMBmVpsXvs7qCYM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\oytaummcac-qvbxwdr9tu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000773395205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1292"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\oytaummcac-qvbxwdr9tu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qvbxwdr9tu.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\oytaummcac-qvbxwdr9tu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000773395205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1292"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvbxwdr9tu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qvbxwdr9tu.css",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvbxwdr9tu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-muHNs+UpmeTZcwN07iYcrIx/mdSUs+HobwC4umHZMyI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qvbxwdr9tu.css.gz",
+      "AssetFile": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\obj\\Debug\\net9.0\\compressed\\oytaummcac-qvbxwdr9tu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 10:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvbxwdr9tu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jAVLNSZQ05O8BcYk9LqOk2Id/brr4c/Eidrela5Nd3M="
+        }
+      ]
+    }
+  ]
+}

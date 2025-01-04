@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\WAN-YEOP AN\\source\\repos\\SignalR_Blazor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SignalR_Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SignalR_Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SignalR_Blazor.props",
+      "PackagePath": "build\\SignalR_Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SignalR_Blazor.props",
+      "PackagePath": "buildMultiTargeting\\SignalR_Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SignalR_Blazor.props",
+      "PackagePath": "buildTransitive\\SignalR_Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

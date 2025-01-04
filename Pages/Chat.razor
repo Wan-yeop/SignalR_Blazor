@@ -1,0 +1,116 @@
+﻿@page "/chat"
+
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+
+<h3>Blazor Chat Example</h3>
+<div>
+    <select id="userList" size="5" style="width:350px">
+        @foreach (var user in UserList)
+        {
+            <option>@user.Value</option>
+        }
+    </select>
+</div>
+
+<div>
+    <input @bind="UserName" placeholder="User Name" />
+    <input @bind="Message" placeholder="Message" @onkeydown="@CheckEnterKey" />
+    <button @onclick="SendMessage">Send</button>
+</div>
+
+<ul>
+    @foreach (var msg in Messages)
+    {
+        <li>@msg</li>
+    }
+</ul>
+
+
+@code {
+
+    // --- Fields / Properties --- //
+    private HubConnection? _hubConnection;
+    private Dictionary<string, string> UserList = new();   // UserList 
+
+
+    private string UserName { get; set; } = "홍길동";  // 기본값
+    private string Message { get; set; }              // 입력 메시지
+    private List<string> Messages { get; set; } = new List<string>();
+
+    // --- Lifecycle Methods --- //
+    protected override async Task OnInitializedAsync()
+    {
+        // 1) HubConnection 빌드 (서버에서 MapHub<ChatHub>("/chatHub") 라고 매핑되었다고 가정)
+        _hubConnection = new HubConnectionBuilder()
+            .WithUrl(NavigationManager.ToAbsoluteUri("/chatHub"))
+            //.WithAutomaticReconnect(new[] { TimeSpan.Zero, TimeSpan.FromSeconds(2), TimeSpan.FromSeconds(5) })
+            .Build();
+
+        // Consol Log
+        _hubConnection.On<string>("ReceiveLog", (log) =>
+        {
+            Console.WriteLine($"[Log]: {log}");
+        });
+
+
+        // 접속사용자 리스트 갱신
+        _hubConnection.On<Dictionary<string, string>>("UpdateUserList", (users) =>
+        {
+            UserList = users;
+            InvokeAsync(StateHasChanged);  // UI 업데이트
+        });   
+
+
+        // 2) 서버가 "ReceiveMessage"를 보내면 UI에 표시
+        _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        {
+            var newMessage = $"{user}: {message}";
+            Messages.Add(newMessage);
+            // 수동으로 UI 갱신
+            InvokeAsync(StateHasChanged);
+        });
+
+        // Add connection state handling
+
+        // 3) 서버와 SignalR 연결 시작  StartAsync !!!! -------------------
+        try
+        {
+            await _hubConnection.StartAsync();
+            Console.WriteLine("Connection started");
+        }
+        catch (Exception ex)
+        {
+            Messages.Add($"Connection failed: {ex.Message}");
+        }
+
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_hubConnection is not null)
+        {
+            await _hubConnection.DisposeAsync();
+        }
+    }
+
+    // --- Event Handlers --- //
+    private async Task SendMessage()
+    {
+        // 4) 서버 허브의 "SendMessage" 메서드를 호출
+        if (_hubConnection is not null)
+        {
+            await _hubConnection.InvokeAsync("SendMessage", UserName, Message);
+            Message = string.Empty;
+        }
+    }
+
+    // Enter 키로도 메시지를 보낼 수 있게 처리 (선택사항)
+    private void CheckEnterKey(KeyboardEventArgs e)
+    {
+       // if (e.Key == "Enter")
+       // {
+       //     SendMessage();
+       // }
+    }
+}
